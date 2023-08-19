@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "zeply"
+version = "0.1.0"
+description = ""
+authors = ["xavi <xpeiro92@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cryptos = "^2.0.9"
+eth-account = "^0.9.0"
+hdwallet = "^2.2.1"
+bip32 = "^3.4"
+bitcoinlib = "^0.6.11"
+fastapi = "^0.101.0"
+uvicorn = "^0.23.2"
+pydantic = "^1.9.2"
+psycopg2 = "2.9.6"
+cryptography = "^41.0.3"
+alembic = "^1.11.2"
+sqlalchemy-utils = "^0.41.1"
+pytest = "^7.4.0"
+httpx = "^0.24.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
